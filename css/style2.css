@@ -1,0 +1,21 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    position: relative;
+    -webkit-animation-name: circle;
+    -webkit-animation-duration: 3s;
+    animation-name: circle;
+    animation-duration: 3s;
+}
+@-webkit-keyframes circle{
+    from{left:-100px;}
+    to{left:10px;}
+}
+
+@keyframes circle{
+    from{left:-100px;}
+    to{left:10px;}
+}
+

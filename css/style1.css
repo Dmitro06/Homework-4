@@ -1,0 +1,19 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 3s;
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes example{
+    from{background-color: blue;}
+    to{background-color: green;}
+}
+
+@keyframes example{
+    from{background-color: blue;}
+    to{background-color: green;}
+}

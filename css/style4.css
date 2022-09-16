@@ -1,0 +1,30 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 20px;
+    position: relative;
+    -webkit-animation-name: circles;
+    -webkit-animation-duration: 3s;
+    animation-name: circles;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes circles{
+    0%{background-color:red;}
+    25%{background-color: yellow;}
+    50%{background-color: green;}
+    100%{background-color: blueviolet;}
+    from{left:0px;}
+    to{left:500px}
+}
+
+@keyframes circles{
+    0%{background-color:red;}
+    25%{background-color: yellow;}
+    50%{background-color: green;}
+    100%{background-color: blueviolet;}
+    from{left:0px;}
+    to{left:500px}
+}
